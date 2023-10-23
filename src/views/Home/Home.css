@@ -1,0 +1,38 @@
+.banner{
+	background-image: url('../../../public/views/Home/banner.png');
+	height:850px;
+	background-size:cover;
+	display: flex;
+	align-items: center;
+}
+.banner_card{
+	margin-left:10%;
+	max-width:23%;
+	padding:55px 58px 55px 58px;
+	border-radius: 29px;
+	background: rgba(255,255,255, 0.6);
+}
+.banner_card__title{
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom:30px;
+}
+.banner_card__buttons{
+	display: flex;
+	font-size:18px;
+	font-weight: 600;
+	display: flex;
+	justify-content: space-between;
+}
+.banner_card__text{
+	font-size:16px;
+	font-weight: 400;
+	margin-bottom:30px;
+}
+.banner_card__btn{
+	display: flex;
+	align-items: center;
+	background-color: black;
+	color: white;
+	margin-right:20px;
+}
