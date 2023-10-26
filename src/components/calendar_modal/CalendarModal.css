@@ -1,0 +1,49 @@
+.overlay{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0, 0.6);
+	top:0px;
+}
+.booking{
+	position: absolute;
+    height: 60%;
+    width: 50%;
+    margin: auto;
+    top: 20%;
+    left: 25%;
+    background-color: white;
+    border-radius: 5%;
+    padding: 40px;
+    z-index: 1;
+}
+.booking_body > *{
+	margin-bottom:20px;
+}
+.booking_body{
+	display: flex;
+	justify-content: space-between;
+}
+.booking_body__col{
+	margin-top:20px;
+	padding-right:20px;
+	width:45%;
+}
+.booking_body__col > *{
+	margin-bottom:20px;
+}
+.booking__label{
+	font-size: 25px;
+    font-weight: 600;
+}
+.booking input{
+	width:auto;
+	padding:15px 10px 15px 10px;
+	border-radius: 10px;
+	border: solid 1px grey;
+}
+.close_arrow{
+	margin-top:10px;
+	margin-left:10px;
+	cursor: pointer;
+}

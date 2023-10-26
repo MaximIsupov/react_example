@@ -1,0 +1,24 @@
+td{
+	text-align: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.cell_inactive{
+    color:grey;
+}
+.calendar__buttons{
+    display: flex;
+    flex-direction: row;
+}
+.calendar__button{
+    margin-right: 10px;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: fantasy;
+}

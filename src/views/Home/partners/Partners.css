@@ -1,0 +1,14 @@
+.partners{
+	margin-left:10%;
+	margin-right:10%;
+	display: flex;
+	justify-content: space-between;
+	margin-top:40px;
+}
+.partners img{
+	transform: scale(0.7);
+	transition: all 0.2s ease;
+}
+.partners img:hover{
+	transform: scale(0.9);
+}
