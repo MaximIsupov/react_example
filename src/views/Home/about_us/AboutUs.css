@@ -1,0 +1,68 @@
+.about_us{
+	margin-top:100px;
+	padding-left:10%;
+	padding-right:10%;
+	display: flex;
+	justify-content: space-between;
+}
+.about_us__col{
+	padding-right:20px;
+}
+.about_us__col_left{
+	width:30%;
+}
+.about_us__title{
+	font-weight: 700;
+	font-size:45px;
+	margin-top:20px;
+}
+.about_us__text{
+	font-weight: 700;
+	font-size:18px;
+	margin-top:20px;
+}
+.about_us__small_text{
+	font-size: 16;
+	font-weight: 400;
+	margin-top:20px;
+}
+.about_us__cards{
+	margin-top: 20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	border-top:1px solid #D8D8D8;
+	border-bottom: 1px solid #D8D8D8;
+	display: flex;
+	justify-content: space-between;
+}
+.about_us__card{
+	background-color: #F6F6F6;
+	border-radius: 15px;
+	width: fit-content;
+	padding:20px;
+	transition: all 0.2s ease;
+}
+.about_us__card:hover{
+	transform: scale(1.05);
+}
+.about_us__card_row{
+	display: flex;
+	align-items: center;
+}
+.about_us__card_title{
+	margin-left:10px;
+	font-size:30px;
+	font-weight: 700;
+}
+.about_us__card img{
+	width:23px;
+	height:23px;
+}
+.about_us_card__content{
+	font-size:16px;
+	font-weight: 700;
+}
+.about_us__cards_divider{
+	width:1px;
+	background-color: #D8D8D8;
+}
