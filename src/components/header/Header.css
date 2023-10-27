@@ -59,3 +59,40 @@ a{
 .btn__icon{
   	background-color: #FFC32B;
 }
+
+@media(max-width:1250px){
+	.header_bottom{
+		flex-direction: column;
+	}
+	.header_bottom__logo, .nav {
+		justify-content: center;
+		margin-bottom:20px;
+	}
+	.btn_icon{
+		width:fit-content;
+		margin: auto;
+	}
+}
+
+@media(max-width:950px){
+	.header_top{
+		flex-direction: column;
+	}
+	.header_top__text{
+		justify-content: center;
+		margin-bottom:20px;
+	}
+	.header_top__links{
+		margin:auto;
+	}
+}
+
+@media(max-width:600px){
+	.nav{
+		flex-direction: column;
+	}
+	.nav__item{
+		margin-bottom:20px;
+		padding-right:0px;
+	}
+}

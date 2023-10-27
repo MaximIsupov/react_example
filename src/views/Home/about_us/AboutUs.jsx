@@ -31,7 +31,7 @@ function AboutUs(){
 				</div>
 			</div>
 			<div className="about_us__col">
-				<img src="views/Home/about_us_banner.png" />
+				<img className="about_us__banner" src="views/Home/about_us_banner.png" alt="about_us_banner" />
 			</div>
 		</div>
 	)

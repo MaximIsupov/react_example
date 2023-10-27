@@ -1,7 +1,7 @@
 .about_us{
 	margin-top:100px;
-	padding-left:10%;
-	padding-right:10%;
+	padding-left:15%;
+	padding-right:15%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -45,6 +45,9 @@
 .about_us__card:hover{
 	transform: scale(1.05);
 }
+.about_us__banner{
+	width:100%;
+}
 .about_us__card_row{
 	display: flex;
 	align-items: center;
@@ -65,4 +68,58 @@
 .about_us__cards_divider{
 	width:1px;
 	background-color: #D8D8D8;
+}
+
+@media(max-width: 1650px){
+	.about_us{
+		padding-left:10%;
+		padding-right:10%;
+	}
+}
+
+@media(max-width: 1500px){
+	.about_us{
+		padding-left:5%;
+		padding-right:5%;
+	}
+}
+
+@media(max-width: 1300px){
+	.about_us{
+		flex-direction: column;
+	}
+	.about_us__col{
+		margin:auto;
+	}
+	.about_us__col_left{
+		width:40%;
+		margin-bottom:40px;
+	}
+	.about_us__col{
+		padding-right:0px;
+	}
+}
+
+@media(max-width:1000px){
+	.about_us__col_left{
+		width:70%;
+	}
+}
+
+@media(max-width:600px){
+	.about_us__col_left{
+		width:90%;
+	}
+}
+
+@media(max-width:450px){
+	.about_us__cards{
+		flex-direction: column;
+	}
+	.about_us__card{
+		margin: auto;
+	}
+	.about_us__cards_divider{
+		width:0px;
+	}
 }

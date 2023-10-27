@@ -11,6 +11,7 @@
 	padding:55px 58px 55px 58px;
 	border-radius: 29px;
 	background: rgba(255,255,255, 0.6);
+	text-align: center;
 }
 .banner_card__title{
 	font-weight: 700;
@@ -41,4 +42,18 @@
 	background-color: black;
 	color: white;
 	margin-right:20px;
+}
+
+@media(max-width:600px){
+	.banner_card{
+		max-width:70%;
+		margin:auto;
+	}
+	.banner_card__buttons{
+		flex-wrap: wrap;
+	}
+	.banner_card__btn{
+		margin:auto;
+		margin-bottom:20px;
+	}
 }
