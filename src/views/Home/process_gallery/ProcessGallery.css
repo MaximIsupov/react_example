@@ -1,8 +1,6 @@
 .process_gallery{
-	height:600px;
-	background-color: black;
-	padding-left:20%;
-	padding-right:20%;
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 47%, rgba(0,201,242,0) 47%, rgba(0,212,255,0) 100%);
 	padding-top:200px;
 	color:white;
 }

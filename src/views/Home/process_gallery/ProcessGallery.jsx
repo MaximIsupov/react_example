@@ -6,7 +6,7 @@ import Numbers from '../../../components/numbers/Numbers.jsx'
 
 function ProcessGallery(){
 	return(
-		<div className="process_gallery">
+		<div className="process_gallery container">
 			<BlockMark backgroundColor="#4EAF4E" color="white" title="Process" />
 			<div className="process_gallery__top">
 				<div className="process_gallery__title">Our client, global analytical techno company, wanted to build market.</div>

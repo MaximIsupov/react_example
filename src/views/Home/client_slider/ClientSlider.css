@@ -1,0 +1,14 @@
+.client_slider{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top:140px;
+}
+.client_slider__title{
+	color:#CECECE;
+	font-size:40px;
+	font-weight: 700;
+	max-width:50%;
+	text-align: center;
+	margin-top:25px;
+}

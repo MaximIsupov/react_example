@@ -4,7 +4,7 @@ import AdvantagesCard from './AdvantagesCard.jsx'
 
 function Advantages(){
 	return(
-		<div className="advantages">
+		<div className="advantages container">
 			<div className="block_mark__wrapper">
 				<BlockMark backgroundColor="#4EAF4E" color="white" title="SERVICES" />
 			</div>

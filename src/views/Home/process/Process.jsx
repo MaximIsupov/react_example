@@ -7,7 +7,7 @@ import ProcessRight from './ProcessRight.jsx'
 
 function Process(){
 	return(
-		<div className="process">
+		<div className="process container">
 			<ProcessLeft />
 			<ProcessRight />
 		</div>
