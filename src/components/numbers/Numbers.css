@@ -1,0 +1,33 @@
+.numbers{
+	display: flex;
+	justify-content: space-between;
+	color:black;
+	margin-top:50px;
+	padding-left:15%;
+	padding-right: 15%;
+}
+.number__title{
+	font-weight:700;
+	font-size:50px;
+}
+.number__text{
+	font-weight:500;
+	font-size:18px;
+}
+
+@media(max-width:1500px){
+	.numbers{
+		padding-right: 0px;
+		padding-left: 0px;
+		flex-wrap: wrap;
+	}
+	.number{
+		padding:10px;
+	}
+}
+
+@media(max-width:650px){
+	.numbers{
+		justify-content: center;
+	}
+}
