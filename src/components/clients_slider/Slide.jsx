@@ -1,6 +1,6 @@
 function Slide(props){
 	return(
-		<div className="slide">
+		<div className="slide" id="slide">
 			<div className="slide__image">
 				<img src={ props.image } alt="slider_image"/>
 			</div>

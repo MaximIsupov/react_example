@@ -43,3 +43,18 @@
 	color:#4EAF4E;
 	margin-top:7px;
 }
+
+@media(max-width: 1300px){
+	.slider{
+		flex-direction: column;
+	}
+	.slider > *{
+		margin-bottom:20px;
+	}
+	.slide{
+		order: 0;
+	}
+	.slider__btn{
+		order:1;
+	}
+}

@@ -12,7 +12,18 @@ function Slider(){
 
 	useEffect(() => {
 		setSlideData(clients[slideIndex]);
+		animateSlider(400);
 	}, [slideIndex]);
+
+	function animateSlider(duration){
+		document.getElementById("slide").animate([
+		  { transform: 'scale(1.0)' },
+		  { transform: 'scale(1.05)' },
+		  { transform: 'scale(1.0)' }
+		], {
+		  duration: duration,
+		});
+	}
 
 	function getPrevSlide(){
 		if (slideIndex != 0){

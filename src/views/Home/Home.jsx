@@ -6,6 +6,7 @@ import Advantages from './advantages/Advantages.jsx'
 import Process from './process/Process.jsx'
 import ProcessGalery from './process_gallery/ProcessGallery.jsx'
 import ClientSlider from './client_slider/ClientSlider.jsx'
+import BookBanner from './book_banner/BookBanner.jsx'
 
 function Home(){
 	return(
@@ -19,6 +20,7 @@ function Home(){
 			<Process />
 			<ProcessGalery />
 			<ClientSlider />
+			<BookBanner />
 		</div>
 	)
 }
