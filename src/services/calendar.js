@@ -8,12 +8,12 @@ export function setCalendar(date){
 	        date.setHours(-24 * (day - 1)); 
 	    return date;
 	}
+	
 	let current_date = new Date(date);
 	let current_month = current_date.getMonth();
 	let y = current_date.getYear();
 	let m = current_month;
 	var firstDay = new Date(y, m, 1);
-	console.log(firstDay);
 	var lastDay = new Date(y, m + 1, 0);
 	let first_day_of_week = firstDay.getDay();
 	if (first_day_of_week == 0){
@@ -22,7 +22,6 @@ export function setCalendar(date){
 	else{
 		first_day_of_week += 1;
 	}
-	console.log(first_day_of_week);
 	let total_amount_of_days = first_day_of_week + lastDay.getDate();
 	let total_amount_of_rows = Math.floor(total_amount_of_days / 7) + 1;
 	let current_day_of_week = current_date.getDay();

@@ -1,0 +1,34 @@
+.blog_block{
+	background-color:#F5F5F5;
+	padding-top:150px;
+	padding-bottom:150px;
+	margin-top:150px;
+}
+.blog_block__top{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom:40px;
+}
+.blog_block__title{
+	max-width: 50%;
+	font-weight: 700;
+	font-size: 45px;
+}
+.blog_block__btn{
+	background-color: #FFCC4A;
+	color:black;
+	height:fit-content;
+	font-weight: 600;
+	font-size:18px;
+	padding:15px;
+}
+
+@media(max-width: 500px){
+	.blog_block__top{
+		flex-direction: column;
+	}
+	.blog_block__title{
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+}
