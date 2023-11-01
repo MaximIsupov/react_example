@@ -1,0 +1,87 @@
+.contact_us{
+	margin-top:150px;
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.contact_us__col{
+	max-width:45%;
+}
+.contact_us__title{
+	font-weight: 700;
+	font-size: 45px;
+}
+.contact_us__text{
+	font-weight:400;
+	font-size:16px;
+}
+.contact_us__cards{
+	margin-top:30px;
+}
+.contact_us__card{
+	display: flex;
+	margin-bottom:50px;
+}
+.contact_us__card_content{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left:20px;
+	font-weight: 400;
+	font-size: 16px;
+}
+.contact_us__card_image img{
+	height:100%;
+}
+.contact_us__card_bottom{
+	font-weight: 600;
+	font-size: 20px;
+}
+.contact_us__form{
+	width: 100%;
+}
+.contact_us__form_row{
+	display: flex;
+	margin-bottom:30px;
+	justify-content: space-between;
+}
+.contact_us__form_col{
+	width:45%;
+	display: flex;
+	flex-direction: column;
+}
+.contact_us__form label{
+	font-weight: 400;
+	font-size:16px;
+	margin-bottom: 10px;
+}
+.contact_us__form input{
+	padding: 22px 33px 22px 33px;
+	border-radius: 54px;
+	border: 1px solid #C1C1C1;
+}
+.contact_us__form_textarea{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+}
+ .contact_us__form textarea{
+ 	padding: 22px 33px 111px 33px;
+	border-radius: 22px;
+	border: 1px solid #C1C1C1;
+ }
+ .contact_us__btn{
+ 	background-color: black;
+ 	color: white;
+ 	width: fit-content;
+ 	padding:16px 27px 16px 27px;
+ }
+
+ @media(max-width:1100px){
+ 	.contact_us{
+ 		flex-direction: column;
+ 	}
+ 	.contact_us__col{
+ 		max-width: 100%;
+ 	}
+ }

@@ -8,6 +8,7 @@ import ProcessGalery from './process_gallery/ProcessGallery.jsx'
 import ClientSlider from './client_slider/ClientSlider.jsx'
 import BookBanner from './book_banner/BookBanner.jsx'
 import BlogBlock from './blog/BlogBlock.jsx'
+import ContactUs from './contact_us/ContactUs.jsx'
 
 function Home(){
 	return(
@@ -23,6 +24,7 @@ function Home(){
 			<ClientSlider />
 			<BookBanner />
 			<BlogBlock />
+			<ContactUs />
 		</div>
 	)
 }
